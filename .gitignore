@@ -1,0 +1,16 @@
+cat > .gitignore <<'EOF'
+# IntelliJ IDEA
+.idea/
+
+# Maven
+target/
+
+# Java
+*.class
+
+# macOS
+.DS_Store
+
+# Logs
+*.log
+EOF
